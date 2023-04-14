@@ -43,18 +43,20 @@ banner h2{
 nav{
    background-color: aliceblue;
    padding: 20px;
-   position:sticky ;
+   position:absolute ;
    top: 148px;
 }
 nav ul{
-   white-space: nowrap;
+   white-space:nowrap;
    max-width: 1000px;
    margin: 0 auto;
+   display: inline;
 }
 nav li{
    width:20% ;
    display: inline-block;
    font-size:14px;
+   float: left;
 }
 nav li a{
    color: black;
