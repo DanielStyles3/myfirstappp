@@ -56,7 +56,6 @@ nav li{
    width:20% ;
    display: inline-block;
    font-size:14px;
-   float: left;
 }
 nav li a{
    color: black;
